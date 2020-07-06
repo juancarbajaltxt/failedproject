@@ -6,12 +6,35 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class = "main">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+    <ion-icon name="pizza"></ion-icon>
+  </ion-card>
+<div class = "mainContent">
+    <ion-list>
+      <ion-item>
+        <ion-label>Toppings</ion-label>
+        <ion-select multiple="true">
+          <ion-select-option>Bacon</ion-select-option>
+          <ion-select-option>Olives</ion-select-option>
+          <ion-select-option>Cheese</ion-select-option>
+          <ion-select-option>Peppers</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+
+    <ion-list>
+      <ion-item>
+        <ion-label>Sauce</ion-label>
+        <ion-select multiple="false">
+          <ion-select-option>Pesto</ion-select-option>
+          <ion-select-option>White Garlic Sauce</ion-select-option>
+          <ion-select-option>Hummus</ion-select-option>
+          <ion-select-option>Marinara Sauce</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </div>
 </ion-content>

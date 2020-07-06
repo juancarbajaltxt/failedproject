@@ -1,0 +1,32 @@
+ion-content{
+    --ion-background-color:#e1ad01;
+}
+ion-header{
+    text-align: center;
+}
+
+ion-card{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    --ion-background-color:white;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.mainContent{
+    margin-top: 200px;
+}
+
+ion-icon{
+    height: 100px;
+    width: 100px;
+}
+
+ion-list{
+    --ion-background-color:white;
+    margin: auto;
+    width: 95%;
+}
+
+
